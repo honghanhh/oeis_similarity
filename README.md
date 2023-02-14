@@ -6,6 +6,14 @@ This repository is an extended version from the paper [IJS at TextGraphs-16 Natu
 
 We crawled 3,600,000 statements from [The On-Line Encyclopedia of Integer Sequences](http://oeis.org/A001477). For each statements (based on the query in form of Axxxxxx where x is the integer). Check out the sample of the output in [./data](./data/).
 
+## Preresequisite
+
+Install the necessary libaries by the following command:
+
+```
+pip install -r requirements.txt
+```
+
 ## Implemetation
 
 To re-crawl, please run the following command:
